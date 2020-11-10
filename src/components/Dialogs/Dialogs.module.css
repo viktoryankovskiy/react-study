@@ -1,0 +1,66 @@
+.dialog_content {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  height: 100%;
+  align-items: flex-start;
+}
+
+.dialog_content h2{
+  width: 100%;
+  margin: 0 0 20px;
+}
+.dialogs {
+  width: 35%;
+  border-right: 1px solid #000;
+  height: calc(100% - 49px);
+}
+
+.dialogs a {
+  display: flex;
+  align-items: center;
+  width: calc(100% + 15px);
+  position: relative;
+  left: -15px;
+  padding: 10px 10px 10px 15px;
+}
+.dialogs a.active,
+.dialogs a:hover {
+  background: rgba(0,0,0,.1);
+}
+.dialogs img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 10px 0 0;
+}
+
+.messages {
+  width: calc(65% - 1px);
+  padding: 0 0 0 30px;
+}
+
+.item {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 0 20px;
+}
+
+.user {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px 0 0;
+}
+.user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.text {
+  padding: 15px 0 0;
+  width: calc(100% - 200px);
+}

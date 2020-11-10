@@ -1,0 +1,43 @@
+.main_image {
+  width: calc(100% + 30px);
+  position: relative;
+  left: -15px;
+  margin: 0 0 15px
+}
+.main_image {
+  width: calc(100% + 30px);
+  height: 200px;
+  display: block;
+}
+.profile_info {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 30px;
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: 0 20px 0 0;
+}
+
+.info {
+  width: calc(100% - 170px);
+}
+
+.name {
+  margin: 0 0 20px;
+}
+
+.info div {
+  width: 100%;
+  display: flex;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+}
+
+.info div a {
+  margin: 0 0 0 5px;
+}

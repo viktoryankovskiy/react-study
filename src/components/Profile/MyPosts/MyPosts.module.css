@@ -1,0 +1,33 @@
+.all_posts {
+  display: block;
+}
+
+h2 {
+  margin: 0 0 20px;
+}
+
+.new_posts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 500px;
+}
+
+textarea {
+  background: #efefef;
+  width: 100%;
+  height: 100px;
+  margin: 0 0 10px;
+  resize: none;
+  padding: 20px;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  background: #000;
+  color: #fff;
+}

@@ -1,0 +1,18 @@
+.list_item a {
+  display: flex;
+  align-items: center;
+  width: calc(100% + 15px);
+  position: relative;
+  left: -15px;
+  padding: 10px 10px 10px 15px;
+}
+.list_item a.active,
+.list_item a:hover {
+  background: rgba(0,0,0,.1);
+}
+.list_item img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 10px 0 0;
+}
